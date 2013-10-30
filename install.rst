@@ -3,6 +3,7 @@
 1. sudo apt-get install php5, apache2
 
 2. Database setup
+
 -------------------- Setup for Mysql 5 ---------------------------------
 
 1. sudo apt-get install mysql-server mysql-common mysql-client php5-mysql
@@ -16,7 +17,7 @@
 
     mysql -u wordpressuser -p
     
---------------------------------------------------------------------------
+--------------------------------Thats It------------------------------------------
 
 ----------------------- Setup for postgresql 9.1 -----------------------------------
 
@@ -37,16 +38,17 @@ define('DB_DRIVER', 'pgsql'); #mysql is other driver
 
 7. create user and database in postgresql
 
-CREATE DATABASE tutrrblog;
-CREATE USER wordpressuser WITH PASSWORD 'root123';
-GRANT ALL PRIVILEGES ON DATABASE tutrrblog to wordpressuser;
+   CREATE DATABASE tutrrblog;
+
+   CREATE USER wordpressuser WITH PASSWORD 'root123';
+
+   GRANT ALL PRIVILEGES ON DATABASE tutrrblog to wordpressuser;
 
 8. login to the database
 
 psql -d tutrrblog -U wordpressuser -h localhost -W
 
----------------------------------------------------------------------------------------
-
+----------------------------------------Thats it----------------------------------------
 
 3. wget "http://wordpress.org/latest.zip"
 
