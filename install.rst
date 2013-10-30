@@ -1,10 +1,10 @@
-
 --------- Wordpress blog setup for any site with mysql and postgresql ----------------------
 
 1. sudo apt-get install php5, apache2
 
 2. Database setup
-=============== Setup for Mysql 5 ======================
+-------------------- Setup for Mysql 5 ---------------------------------
+
 1. sudo apt-get install mysql-server mysql-common mysql-client php5-mysql
 
 2. Mysql database and user creation
@@ -15,9 +15,10 @@
 3. Login to the db
 
     mysql -u wordpressuser -p
-========================================================
+    
+--------------------------------------------------------------------------
 
-=============== Setup for postgresql 9.1 ===============
+----------------------- Setup for postgresql 9.1 -----------------------------------
 
 1. sudo apt-get install postgresql-9.1, phppgadmin, postgresql-client-common, 
 
@@ -44,7 +45,7 @@ GRANT ALL PRIVILEGES ON DATABASE tutrrblog to wordpressuser;
 
 psql -d tutrrblog -U wordpressuser -h localhost -W
 
-===========================================================
+---------------------------------------------------------------------------------------
 
 
 3. wget "http://wordpress.org/latest.zip"
