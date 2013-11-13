@@ -1,8 +1,7 @@
 --------- Wordpress blog setup for any site with mysql and postgresql ----------------------
 
-1. sudo apt-get install php5, apache2
-
-2. Database setup
+    sudo apt-get install php5, apache2
+    Database setup
 
 -------------------- Setup for Mysql 5 ---------------------------------
 
